@@ -1,0 +1,11 @@
+ .rte file Subbasin:1 Wed Sep 13 13:15:33 2006 AVSWAT2000 - SWAT interface MDL
+          78.669    | CHW2 : Main channel width [m]
+           2.014    | CHD : Main channel depth [m]
+           0.000    | CH_S2 : Main channel slope [m/m]
+          28.341    | CH_L2 : Main channel length [km]
+           0.014    | CH_N2 : Manning's nvalue for main channel
+           0.000    | CH_K2 : Effective hydraulic conductivity [mm/hr]
+           0.000    | CH_EROD: Channel erodibility factor
+           0.000    | CH_COV : Channel cover factor
+          39.059    | CH_WDR : Channel width:depth ratio [m/m]
+           0.000    | ALPHA_BNK : Baseflow alpha factor for bank storage [days]

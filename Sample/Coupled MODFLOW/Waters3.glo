@@ -1,0 +1,716 @@
+                                  MODFLOW-2000
+      U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER FLOW MODEL
+                           VERSION 1.13.00 01/22/2004
+
+
+ This model run produced both GLOBAL and LIST files.  This is the GLOBAL file.
+
+ GLOBAL LISTING FILE: "Waters3.glo"
+                         UNIT    1
+
+ OPENING "Waters3.out"
+ FILE TYPE:LIST   UNIT    2   STATUS:REPLACE
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.hed"
+ FILE TYPE:DATA(BINARY)   UNIT   30   STATUS:UNKNOWN
+ FORMAT:BINARY                 ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.lmt"
+ FILE TYPE:LMT6   UNIT   18   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+#                                                                                                                                                                                                       
+# Obs-Sen-Pes Process Input Files                                                                                                                                                                       
+
+ OPENING "Waters3.obs"
+ FILE TYPE:OBS   UNIT   50   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.hob"
+ FILE TYPE:HOB   UNIT   51   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.rvob"
+ FILE TYPE:RVOB   UNIT   52   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.chob"
+ FILE TYPE:CHOB   UNIT   55   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ FILE TYPE:ASP: FILE = Waters3.asp
+#                                                                                                                                                                                                       
+# Global Input Files                                                                                                                                                                                    
+
+ OPENING "Waters3.dis"
+ FILE TYPE:DIS   UNIT   19   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+#                                                                                                                                                                                                       
+# Flow Process Input Files                                                                                                                                                                              
+
+ OPENING "Waters3.ba6"
+ FILE TYPE:BAS6   UNIT    3   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.lpf"
+ FILE TYPE:LPF   UNIT    4   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.oc"
+ FILE TYPE:OC   UNIT   15   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.rch"
+ FILE TYPE:RCH   UNIT   16   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.riv"
+ FILE TYPE:RIV   UNIT    8   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.wel"
+ FILE TYPE:WEL   UNIT    9   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.ghb"
+ FILE TYPE:GHB   UNIT   11   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.chd"
+ FILE TYPE:CHD   UNIT   13   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ OPENING "Waters3.pcg"
+ FILE TYPE:PCG   UNIT   14   STATUS:OLD    
+ FORMAT:FORMATTED              ACCESS:SEQUENTIAL          
+
+ THE FREE FORMAT OPTION HAS BEEN SELECTED
+
+ DISCRETIZATION INPUT DATA READ FROM UNIT   19
+ # MF2K DISCRETIZATION FILE
+ #
+ #
+ # NLAY NROW NCOL NPER TIMEUNITS LENUNITS
+    1 LAYERS        62 ROWS        38 COLUMNS
+    3 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS DAYS
+ MODEL LENGTH UNIT IS METERS
+ THE GROUND-WATER TRANSPORT PROCESS IS INACTIVE
+
+ THE OBSERVATION PROCESS IS ACTIVE
+ THE SENSITIVITY PROCESS IS INACTIVE
+ THE PARAMETER-ESTIMATION PROCESS IS INACTIVE
+
+ MODE: FORWARD WITH OBSERVATIONS
+
+  Confining bed flag for each layer:
+   0
+
+      21304  ELEMENTS OF GX ARRAY USED OUT OF      21304
+       2356  ELEMENTS OF GZ ARRAY USED OUT OF       2356
+       2356  ELEMENTS OF IG ARRAY USED OUT OF       2356
+
+ -------------------------------------------------------------------------------
+
+ VARIABLES READ FROM ASP INPUT FILE:-
+
+ NOSTOP = 1          : DO NOT CEASE EXECUTION IF MODFLOW FAILS TO CONVERGE.
+ HYDRYBOT = 0        : ASSIGN HDRY TO HEAD IN DRY CELL.
+ MINTHICK =     0.000: DO NOT PREVENT BASAL CELLS DRYING OUT.
+ LIMOP = 0           : NO LIMITATIONS ON OBSERVATION OR SENSITIVITY OUTPUT.
+
+ -------------------------------------------------------------------------------
+
+
+
+
+                               DELR
+ READING ON UNIT   19 WITH FORMAT: (FREE)              
+   976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97    
+   976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97    
+   976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97    
+   976.97       976.97       976.97       976.97       976.97       976.97       976.97       976.97    
+
+
+
+                               DELC
+ READING ON UNIT   19 WITH FORMAT: (FREE)              
+   997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98    
+   997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98    
+   997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98    
+   997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98    
+   997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98    
+   997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98       997.98    
+   997.98       997.98    
+
+ TOP ELEVATION OF LAYER 1 =   0.00000    
+
+   MODEL LAYER BOTTOM EL. =  -200.000     FOR LAYER   1
+
+
+ STRESS PERIOD     LENGTH       TIME STEPS     MULTIPLIER FOR DELT    SS FLAG
+ ----------------------------------------------------------------------------
+        1         30.00000          4                    1.000         TR
+        2         30.00000          4                    1.000         TR
+        3         30.00000          4                    1.000         TR
+
+ TRANSIENT SIMULATION
+
+
+
+
+ LPF1 -- LAYER PROPERTY FLOW PACKAGE, VERSION 1, 1/11/2000
+         INPUT READ FROM UNIT    4
+ HEAD AT CELLS THAT CONVERT TO DRY=  -888.00    
+ No named parameters
+
+   LAYER FLAGS:
+ LAYER       LAYTYP        LAYAVG         CHANI        LAYVKA        LAYWET
+ ---------------------------------------------------------------------------
+    1             0             0    -1.000E+00             1             0
+
+   INTERPRETATION OF LAYER FLAGS:
+                        INTERBLOCK     HORIZONTAL    DATA IN
+         LAYER TYPE   TRANSMISSIVITY   ANISOTROPY   ARRAY VKA   WETTABILITY
+ LAYER      (LAYTYP)      (LAYAVG)       (CHANI)      (LAYVKA)      (LAYWET)
+ ---------------------------------------------------------------------------
+    1      CONFINED      HARMONIC      VARIABLE    ANISOTROPY  NON-WETTABLE
+
+       9424 ELEMENTS IN X ARRAY ARE USED BY LPF
+          6 ELEMENTS IN IX ARRAY ARE USED BY LPF
+
+ PCG2 -- CONJUGATE GRADIENT SOLUTION PACKAGE, VERSION 2.4, 12/29/98
+ MAXIMUM OF     25 CALLS OF SOLUTION ROUTINE
+ MAXIMUM OF     50 INTERNAL ITERATIONS PER CALL TO SOLUTION ROUTINE
+ MATRIX PRECONDITIONING TYPE :    1
+       7212 ELEMENTS IN X ARRAY ARE USED BY PCG
+       8750 ELEMENTS IN IX ARRAY ARE USED BY PCG
+       9424 ELEMENTS IN Z ARRAY ARE USED BY PCG
+
+ OBS1BAS6 -- OBSERVATION PROCESS, VERSION 1.0, 4/27/99
+ INPUT READ FROM UNIT  50
+ OBSERVATION GRAPH-DATA OUTPUT FILES
+ WILL BE PRINTED AND NAMED USING THE BASE: Waters3
+
+ HEAD OBSERVATIONS -- INPUT READ FROM UNIT  51
+ #           CoverageGUID ObjectType ID X Y Time OBNAME
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1590, 622910.0, 1909150.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1591, 633930.0, 1880710.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+ #GMSCOMMENT 315ade25-0302-4767-ac86-53b3fdad165b POINT 1593, 631010.0, 1894930.
+
+ NUMBER OF HEADS....................................:   51
+   NUMBER OF MULTILAYER HEADS.......................:    0
+   MAXIMUM NUMBER OF LAYERS FOR MULTILAYER HEADS....:    0
+
+ OBS1RIV6 -- OBSERVATION PROCESS (RIVER FLOW OBSERVATIONS)
+ VERSION 1.0, 10/15/98
+ INPUT READ FROM UNIT   52
+ #           CoverageGUID ObjectType ID X Y Time OBNAME
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 1 628740.0 1884453.4821429
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+ #GMSCOMMENT 0dc90cec-9331-48ed-b039-c4ea5ea5e0b0 ARC 2 628740.0 1894407.5390625
+
+ NUMBER OF FLOW-OBSERVATION RIVER-CELL GROUPS.....:      2
+   NUMBER OF CELLS IN RIVER-CELL GROUPS...........:     46
+   NUMBER OF RIVER-CELL FLOWS.....................:     24
+
+ OBS1BAS6F -- OBSERVATION PROCESS (CONSTANT-HEAD BOUNDARY FLOW OBSERVATIONS)
+ VERSION 1.0, 12/03/99
+ INPUT READ FROM UNIT  55
+ #           CoverageGUID ObjectType ID X Y Time OBNAME
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_0
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_1
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_2
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_3
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_4
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_5
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_6
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_7
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_8
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_9
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_10
+ #GMSCOMMENT 8cd060ff-7936-4618-87c5-04b2f14ae75b ARC 1 617175.0 1895760.0 ts_11
+
+ NUMBER OF FLOW-OBSERVATION CONSTANT-HEAD-CELL GROUPS:    1
+   NUMBER OF CELLS IN CONSTANT-HEAD-CELL GROUPS......:   61
+   NUMBER OF CONSTANT-HEAD-CELL FLOWS................:   12
+
+       4384 ELEMENTS IN X ARRAY ARE USED FOR OBSERVATIONS
+       1406 ELEMENTS IN Z ARRAY ARE USED FOR OBSERVATIONS
+        669 ELEMENTS IN IX ARRAY ARE USED FOR OBSERVATIONS
+
+ COMMON ERROR VARIANCE FOR ALL OBSERVATIONS SET TO:       1.000    
+
+      21020  ELEMENTS OF X ARRAY USED OUT OF      21020
+      10830  ELEMENTS OF Z ARRAY USED OUT OF      10830
+       9425  ELEMENTS OF IX ARRAY USED OUT OF       9425
+          0  ELEMENTS OF XHS ARRAY USED OUT OF          1
+
+ HEAD OBSERVATION VARIANCES ARE MULTIPLIED BY:       1.000    
+
+ OBSERVED HEAD DATA -- TIME OFFSETS ARE MULTIPLIED BY:   1.0000    
+
+                    REFER.
+       OBSERVATION  STRESS    TIME                              STATISTIC   PLOT
+  OBS#    NAME      PERIOD   OFFSET    OBSERVATION  STATISTIC     TYPE      SYM.
+     1 hed1           -17    0.000       0.000      0.5102      STD. DEV.      1
+  TRANSIENT DATA AT THIS LOCATION, ITT =   1
+     1 hed1             1    1.000      -8.000      0.5102      STD. DEV.      1
+     2 hed2             2    0.000      -8.000      0.5102      STD. DEV.      1
+     3 hed3             2    15.00      -7.000      0.5102      STD. DEV.      1
+     4 hed4             3    0.000      -8.000      0.5102      STD. DEV.      1
+     5 hed5             3    30.00      -8.000      0.5102      STD. DEV.      1
+     6 no_hed6          1    7.500       0.000      0.1000E+20  STD. DEV.      1
+     7 no_hed7          1    15.00       0.000      0.1000E+20  STD. DEV.      1
+     8 no_hed8          1    22.50       0.000      0.1000E+20  STD. DEV.      1
+     9 no_hed9          2    0.000       0.000      0.1000E+20  STD. DEV.      1
+    10 no_hed10         2    7.500       0.000      0.1000E+20  STD. DEV.      1
+    11 no_hed11         2    15.00       0.000      0.1000E+20  STD. DEV.      1
+    12 no_hed12         2    22.50       0.000      0.1000E+20  STD. DEV.      1
+    13 no_hed13         3    0.000       0.000      0.1000E+20  STD. DEV.      1
+    14 no_hed14         3    7.500       0.000      0.1000E+20  STD. DEV.      1
+    15 no_hed15         3    15.00       0.000      0.1000E+20  STD. DEV.      1
+    16 no_hed16         3    22.50       0.000      0.1000E+20  STD. DEV.      1
+    17 no_hed17         3    30.00       0.000      0.1000E+20  STD. DEV.      1
+ 
+    18 hed18          -17    0.000       0.000      0.5102      STD. DEV.      1
+  TRANSIENT DATA AT THIS LOCATION, ITT =   1
+    18 hed18            1    1.000      -7.000      0.5102      STD. DEV.      1
+    19 hed19            2    0.000      -7.000      0.5102      STD. DEV.      1
+    20 hed20            2    15.00      -6.000      0.5102      STD. DEV.      1
+    21 hed21            3    0.000      -7.000      0.5102      STD. DEV.      1
+    22 hed22            3    30.00      -7.000      0.5102      STD. DEV.      1
+    23 no_hed23         1    7.500       0.000      0.1000E+20  STD. DEV.      1
+    24 no_hed24         1    15.00       0.000      0.1000E+20  STD. DEV.      1
+    25 no_hed25         1    22.50       0.000      0.1000E+20  STD. DEV.      1
+    26 no_hed26         2    0.000       0.000      0.1000E+20  STD. DEV.      1
+    27 no_hed27         2    7.500       0.000      0.1000E+20  STD. DEV.      1
+    28 no_hed28         2    15.00       0.000      0.1000E+20  STD. DEV.      1
+    29 no_hed29         2    22.50       0.000      0.1000E+20  STD. DEV.      1
+    30 no_hed30         3    0.000       0.000      0.1000E+20  STD. DEV.      1
+    31 no_hed31         3    7.500       0.000      0.1000E+20  STD. DEV.      1
+    32 no_hed32         3    15.00       0.000      0.1000E+20  STD. DEV.      1
+    33 no_hed33         3    22.50       0.000      0.1000E+20  STD. DEV.      1
+    34 no_hed34         3    30.00       0.000      0.1000E+20  STD. DEV.      1
+ 
+    35 hed35          -17    0.000       0.000      0.5102      STD. DEV.      1
+  TRANSIENT DATA AT THIS LOCATION, ITT =   1
+    35 hed35            1    1.000      -10.00      0.5102      STD. DEV.      1
+    36 hed36            2    0.000      -10.00      0.5102      STD. DEV.      1
+    37 hed37            2    15.00      -9.000      0.5102      STD. DEV.      1
+    38 hed38            3    0.000      -10.00      0.5102      STD. DEV.      1
+    39 hed39            3    30.00      -10.00      0.5102      STD. DEV.      1
+    40 no_hed40         1    7.500       0.000      0.1000E+20  STD. DEV.      1
+    41 no_hed41         1    15.00       0.000      0.1000E+20  STD. DEV.      1
+    42 no_hed42         1    22.50       0.000      0.1000E+20  STD. DEV.      1
+    43 no_hed43         2    0.000       0.000      0.1000E+20  STD. DEV.      1
+    44 no_hed44         2    7.500       0.000      0.1000E+20  STD. DEV.      1
+    45 no_hed45         2    15.00       0.000      0.1000E+20  STD. DEV.      1
+    46 no_hed46         2    22.50       0.000      0.1000E+20  STD. DEV.      1
+    47 no_hed47         3    0.000       0.000      0.1000E+20  STD. DEV.      1
+    48 no_hed48         3    7.500       0.000      0.1000E+20  STD. DEV.      1
+    49 no_hed49         3    15.00       0.000      0.1000E+20  STD. DEV.      1
+    50 no_hed50         3    22.50       0.000      0.1000E+20  STD. DEV.      1
+    51 no_hed51         3    30.00       0.000      0.1000E+20  STD. DEV.      1
+ 
+
+                                                     HEAD CHANGE
+                                                      REFERENCE
+        OBSERVATION                   ROW     COL    OBSERVATION
+  OBS#     NAME       LAY  ROW  COL  OFFSET  OFFSET   (IF > 0)
+     1  hed1            1   19   14  -0.196  -0.283        0
+     2  hed2            1   19   14  -0.196  -0.283        0
+     3  hed3            1   19   14  -0.196  -0.283        0
+     4  hed4            1   19   14  -0.196  -0.283        0
+     5  hed5            1   19   14  -0.196  -0.283        0
+     6  no_hed6         1   19   14  -0.196  -0.283        0
+     7  no_hed7         1   19   14  -0.196  -0.283        0
+     8  no_hed8         1   19   14  -0.196  -0.283        0
+     9  no_hed9         1   19   14  -0.196  -0.283        0
+    10  no_hed10        1   19   14  -0.196  -0.283        0
+    11  no_hed11        1   19   14  -0.196  -0.283        0
+    12  no_hed12        1   19   14  -0.196  -0.283        0
+    13  no_hed13        1   19   14  -0.196  -0.283        0
+    14  no_hed14        1   19   14  -0.196  -0.283        0
+    15  no_hed15        1   19   14  -0.196  -0.283        0
+    16  no_hed16        1   19   14  -0.196  -0.283        0
+    17  no_hed17        1   19   14  -0.196  -0.283        0
+    18  hed18           1   47   25   0.302  -0.003        0
+    19  hed19           1   47   25   0.302  -0.003        0
+    20  hed20           1   47   25   0.302  -0.003        0
+    21  hed21           1   47   25   0.302  -0.003        0
+    22  hed22           1   47   25   0.302  -0.003        0
+    23  no_hed23        1   47   25   0.302  -0.003        0
+    24  no_hed24        1   47   25   0.302  -0.003        0
+    25  no_hed25        1   47   25   0.302  -0.003        0
+    26  no_hed26        1   47   25   0.302  -0.003        0
+    27  no_hed27        1   47   25   0.302  -0.003        0
+    28  no_hed28        1   47   25   0.302  -0.003        0
+    29  no_hed29        1   47   25   0.302  -0.003        0
+    30  no_hed30        1   47   25   0.302  -0.003        0
+    31  no_hed31        1   47   25   0.302  -0.003        0
+    32  no_hed32        1   47   25   0.302  -0.003        0
+    33  no_hed33        1   47   25   0.302  -0.003        0
+    34  no_hed34        1   47   25   0.302  -0.003        0
+    35  hed35           1   33   22   0.053   0.008        0
+    36  hed36           1   33   22   0.053   0.008        0
+    37  hed37           1   33   22   0.053   0.008        0
+    38  hed38           1   33   22   0.053   0.008        0
+    39  hed39           1   33   22   0.053   0.008        0
+    40  no_hed40        1   33   22   0.053   0.008        0
+    41  no_hed41        1   33   22   0.053   0.008        0
+    42  no_hed42        1   33   22   0.053   0.008        0
+    43  no_hed43        1   33   22   0.053   0.008        0
+    44  no_hed44        1   33   22   0.053   0.008        0
+    45  no_hed45        1   33   22   0.053   0.008        0
+    46  no_hed46        1   33   22   0.053   0.008        0
+    47  no_hed47        1   33   22   0.053   0.008        0
+    48  no_hed48        1   33   22   0.053   0.008        0
+    49  no_hed49        1   33   22   0.053   0.008        0
+    50  no_hed50        1   33   22   0.053   0.008        0
+    51  no_hed51        1   33   22   0.053   0.008        0
+
+ RIVER-CELL FLOW OBSERVATION VARIANCES ARE MULTIPLIED BY:       1.000    
+
+ OBSERVED RIVER-CELL FLOW DATA
+ -- TIME OFFSETS ARE MULTIPLIED BY:   1.0000    
+
+   GROUP NUMBER:      1   BOUNDARY TYPE: RIV   NUMBER OF CELLS IN GROUP:     29
+   NUMBER OF FLOW OBSERVATIONS:     12
+
+                                        OBSERVED
+                    REFER.             RIVER FLOW
+       OBSERVATION  STRESS    TIME     GAIN (-) OR              STATISTIC   PLOT
+  OBS#    NAME      PERIOD   OFFSET     LOSS (+)    STATISTIC     TYPE      SYM.
+    52 no_rivf0         1    7.500       1.000      0.1000E+20  STD. DEV.      1
+    53 no_rivf1         1    15.00       1.000      0.1000E+20  STD. DEV.      1
+    54 no_rivf2         1    22.50       1.000      0.1000E+20  STD. DEV.      1
+    55 no_rivf3         2    0.000       1.000      0.1000E+20  STD. DEV.      1
+    56 no_rivf4         2    7.500       1.000      0.1000E+20  STD. DEV.      1
+    57 no_rivf5         2    15.00       1.000      0.1000E+20  STD. DEV.      1
+    58 no_rivf6         2    22.50       1.000      0.1000E+20  STD. DEV.      1
+    59 no_rivf7         3    0.000       1.000      0.1000E+20  STD. DEV.      1
+    60 no_rivf8         3    7.500       1.000      0.1000E+20  STD. DEV.      1
+    61 no_rivf9         3    15.00       1.000      0.1000E+20  STD. DEV.      1
+    62 no_rivf10        3    22.50       1.000      0.1000E+20  STD. DEV.      1
+    63 no_rivf11        3    30.00       1.000      0.1000E+20  STD. DEV.      1
+
+       LAYER  ROW  COLUMN    FACTOR
+          1.   37.    20.     1.00
+          1.   38.    20.     1.00
+          1.   39.    20.     1.00
+          1.   40.    20.     1.00
+          1.   41.    20.     1.00
+          1.   42.    20.     1.00
+          1.   43.    20.     1.00
+          1.   44.    20.     1.00
+          1.   45.    20.     1.00
+          1.   46.    20.     1.00
+          1.   47.    20.     1.00
+          1.   48.    20.     1.00
+          1.   49.    20.     1.00
+          1.   49.    21.     1.00
+          1.   50.    21.     1.00
+          1.   51.    21.     1.00
+          1.   52.    21.     1.00
+          1.   53.    21.     1.00
+          1.   54.    21.     1.00
+          1.   55.    21.     1.00
+          1.   55.    22.     1.00
+          1.   55.    23.     1.00
+          1.   55.    24.     1.00
+          1.   55.    25.     1.00
+          1.   55.    26.     1.00
+          1.   55.    27.     1.00
+          1.   55.    28.     1.00
+          1.   56.    28.     1.00
+          1.   57.    30.     1.00
+
+   GROUP NUMBER:      2   BOUNDARY TYPE: RIV   NUMBER OF CELLS IN GROUP:     17
+   NUMBER OF FLOW OBSERVATIONS:     12
+
+                                        OBSERVED
+                    REFER.             RIVER FLOW
+       OBSERVATION  STRESS    TIME     GAIN (-) OR              STATISTIC   PLOT
+  OBS#    NAME      PERIOD   OFFSET     LOSS (+)    STATISTIC     TYPE      SYM.
+    64 no_rivf12        1    7.500       1.000      0.1000E+20  STD. DEV.      1
+    65 no_rivf13        1    15.00       1.000      0.1000E+20  STD. DEV.      1
+    66 no_rivf14        1    22.50       1.000      0.1000E+20  STD. DEV.      1
+    67 no_rivf15        2    0.000       1.000      0.1000E+20  STD. DEV.      1
+    68 no_rivf16        2    7.500       1.000      0.1000E+20  STD. DEV.      1
+    69 no_rivf17        2    15.00       1.000      0.1000E+20  STD. DEV.      1
+    70 no_rivf18        2    22.50       1.000      0.1000E+20  STD. DEV.      1
+    71 no_rivf19        3    0.000       1.000      0.1000E+20  STD. DEV.      1
+    72 no_rivf20        3    7.500       1.000      0.1000E+20  STD. DEV.      1
+    73 no_rivf21        3    15.00       1.000      0.1000E+20  STD. DEV.      1
+    74 no_rivf22        3    22.50       1.000      0.1000E+20  STD. DEV.      1
+    75 no_rivf23        3    30.00       1.000      0.1000E+20  STD. DEV.      1
+
+       LAYER  ROW  COLUMN    FACTOR
+          1.   26.    18.     1.00
+          1.   27.    18.     1.00
+          1.   28.    18.     1.00
+          1.   28.    19.     1.00
+          1.   29.    19.     1.00
+          1.   29.    20.     1.00
+          1.   30.    19.     1.00
+          1.   30.    20.     1.00
+          1.   31.    19.     1.00
+          1.   31.    20.     1.00
+          1.   32.    20.     1.00
+          1.   33.    20.     1.00
+          1.   34.    20.     1.00
+          1.   35.    20.     1.00
+          1.   36.    20.     1.00
+          1.   37.    20.     0.00
+          1.   37.    20.     1.00
+
+ CONSTANT-HEAD-CELL FLOW OBSERVATION VARIANCES ARE MULTIPLIED BY:       1.000    
+
+ OBSERVED CONSTANT-HEAD-CELL FLOW DATA
+ -- TIME OFFSETS ARE MULTIPLIED BY:   1.0000    
+
+   GROUP NUMBER:   3   BOUNDARY TYPE: CHD   NUMBER OF CELLS IN GROUP:    61
+   NUMBER OF FLOW OBSERVATIONS:    12
+
+                                        OBSERVED
+                    REFER.            BOUNDARY FLOW
+       OBSERVATION  STRESS    TIME     GAIN (-) OR              STATISTIC   PLOT
+  OBS#    NAME      PERIOD   OFFSET     LOSS (+)    STATISTIC     TYPE      SYM.
+    76 no_chdf0         1    7.500       1.000      0.1000E+20  STD. DEV.      1
+    77 no_chdf1         1    15.00       1.000      0.1000E+20  STD. DEV.      1
+    78 no_chdf2         1    22.50       1.000      0.1000E+20  STD. DEV.      1
+    79 no_chdf3         2    0.000       1.000      0.1000E+20  STD. DEV.      1
+    80 no_chdf4         2    7.500       1.000      0.1000E+20  STD. DEV.      1
+    81 no_chdf5         2    15.00       1.000      0.1000E+20  STD. DEV.      1
+    82 no_chdf6         2    22.50       1.000      0.1000E+20  STD. DEV.      1
+    83 no_chdf7         3    0.000       1.000      0.1000E+20  STD. DEV.      1
+    84 no_chdf8         3    7.500       1.000      0.1000E+20  STD. DEV.      1
+    85 no_chdf9         3    15.00       1.000      0.1000E+20  STD. DEV.      1
+    86 no_chdf10        3    22.50       1.000      0.1000E+20  STD. DEV.      1
+    87 no_chdf11        3    30.00       1.000      0.1000E+20  STD. DEV.      1
+
+       LAYER  ROW  COLUMN    FACTOR
+          1.    6.    22.     1.00
+          1.    7.    21.     1.00
+          1.    8.    19.     1.00
+          1.    8.    20.     1.00
+          1.    9.    18.     1.00
+          1.   10.    17.     1.00
+          1.   10.    18.     1.00
+          1.   11.    10.     1.00
+          1.   11.    14.     1.00
+          1.   11.    16.     1.00
+          1.   12.     8.     1.00
+          1.   12.     9.     1.00
+          1.   12.    12.     1.00
+          1.   12.    13.     1.00
+          1.   14.     8.     1.00
+          1.   15.     7.     1.00
+          1.   16.     7.     1.00
+          1.   17.     6.     1.00
+          1.   18.     6.     1.00
+          1.   19.     6.     1.00
+          1.   20.     6.     1.00
+          1.   21.     4.     1.00
+          1.   23.     3.     1.00
+          1.   24.     3.     1.00
+          1.   25.     4.     1.00
+          1.   26.     4.     1.00
+          1.   27.     4.     1.00
+          1.   28.     4.     1.00
+          1.   29.     5.     1.00
+          1.   30.     6.     1.00
+          1.   30.     7.     1.00
+          1.   31.     7.     1.00
+          1.   32.     8.     1.00
+          1.   32.     9.     1.00
+          1.   33.     9.     1.00
+          1.   34.     9.     1.00
+          1.   34.    10.     1.00
+          1.   35.    11.     1.00
+          1.   36.    12.     1.00
+          1.   37.    14.     1.00
+          1.   39.    14.     1.00
+          1.   40.    15.     1.00
+          1.   41.    16.     1.00
+          1.   42.    16.     1.00
+          1.   44.    15.     1.00
+          1.   44.    16.     1.00
+          1.   44.    18.     1.00
+          1.   45.    17.     1.00
+          1.   45.    19.     1.00
+          1.   46.    19.     1.00
+          1.   47.    17.     1.00
+          1.   48.    18.     1.00
+          1.   49.    19.     1.00
+          1.   51.    19.     1.00
+          1.   52.    20.     1.00
+          1.   53.    20.     1.00
+          1.   54.    19.     1.00
+          1.   55.    19.     1.00
+          1.   56.    21.     1.00
+          1.   57.    21.     1.00
+          1.   59.    20.     1.00
+
+
+
+                                    SOLUTION BY THE CONJUGATE-GRADIENT METHOD
+                                   -------------------------------------------
+                    MAXIMUM NUMBER OF CALLS TO PCG ROUTINE =       25
+                        MAXIMUM ITERATIONS PER CALL TO PCG =       50
+                               MATRIX PRECONDITIONING TYPE =        1
+        RELAXATION FACTOR (ONLY USED WITH PRECOND. TYPE 1) =    0.10000E+01
+ PARAMETER OF POLYNOMIAL PRECOND. = 2 (2) OR IS CALCULATED :        0
+                         HEAD CHANGE CRITERION FOR CLOSURE =    0.10000E-01
+                     RESIDUAL CHANGE CRITERION FOR CLOSURE =    0.10000E-01
+            PCG HEAD AND RESIDUAL CHANGE PRINTOUT INTERVAL =      999
+     PRINTING FROM SOLVER IS LIMITED(1) OR SUPPRESSED (>1) =        2
+                                         DAMPING PARAMETER =    0.10000E+01
+
+ WETTING CAPABILITY IS NOT ACTIVE IN ANY LAYER
+
+    HYD. COND. ALONG ROWS =   20.0000     FOR LAYER   1
+
+   HORIZ. ANI. (COL./ROW) =   1.00000     FOR LAYER   1
+
+  HORIZ. TO VERTICAL ANI. =   3.00000     FOR LAYER   1
+
+         SPECIFIC STORAGE =   0.00000     FOR LAYER   1
+
+
+     0 Well parameters
+
+
+     0 River parameters
+
+
+     0 GHB parameters
+
+
+     0 Recharge parameters
+
+
+     0 TIME-VARIANT SPECIFIED-HEAD PARAMETERS
+
+ SMALLEST AND LARGEST WEIGHTED RESIDUALS
+
+      SMALLEST WEIGHTED RESIDUALS      |       LARGEST WEIGHTED RESIDUALS
+                WEIGHTED   PERCENT OF  |                 WEIGHTED   PERCENT OF
+ NAME           RESIDUAL    OBJ FUNC   |  NAME           RESIDUAL    OBJ FUNC
+ hed21          -8.33        37.53     |  hed18           4.92        13.08
+ hed20          -6.37        21.95     |  hed1            3.23         5.63
+ hed38          -4.43        10.60     |  no_chdf5       0.139E-13     0.00
+ hed4           -2.48         3.34     |  no_chdf4       0.139E-13     0.00
+ hed37          -2.47         3.29     |  no_chdf6       0.139E-13     0.00
+
+ STATISTICS FOR ALL RESIDUALS :
+ AVERAGE WEIGHTED RESIDUAL  :-0.269E+00
+ # RESIDUALS >= 0. :     50
+ # RESIDUALS < 0.  :     37
+ NUMBER OF RUNS  :    9  IN   87 OBSERVATIONS
+
+ INTERPRETING THE CALCULATED RUNS STATISTIC VALUE OF     -7.51    
+ NOTE: THE FOLLOWING APPLIES ONLY IF 
+        # RESIDUALS >= 0 . IS GREATER THAN 10 AND 
+        # RESIDUALS < 0.   IS GREATER THAN 10
+ THE NEGATIVE VALUE MAY INDICATE TOO FEW RUNS:
+    IF THE VALUE IS LESS THAN -1.28, THERE IS LESS THAN A 10 PERCENT
+       CHANCE THE VALUES ARE RANDOM,
+    IF THE VALUE IS LESS THAN -1.645, THERE IS LESS THAN A 5 PERCENT
+       CHANCE THE VALUES ARE RANDOM,
+    IF THE VALUE IS LESS THAN -1.96, THERE IS LESS THAN A 2.5 PERCENT
+       CHANCE THE VALUES ARE RANDOM.
+
+
+ CORRELATION BETWEEN ORDERED WEIGHTED RESIDUALS AND NORMAL ORDER STATISTICS
+ FOR OBSERVATIONS =    0.424    
+
+ --------------------------------------------------------------------------
+ COMMENTS ON THE INTERPRETATION OF THE CORRELATION BETWEEN
+ WEIGHTED RESIDUALS AND NORMAL ORDER STATISTICS:
+
+ The critical value for correlation at the 5% significance level is 0.972
+
+ IF the reported CORRELATION is GREATER than the 5% critical value, ACCEPT
+ the hypothesis that the weighted residuals are INDEPENDENT AND NORMALLY
+ DISTRIBUTED at the 5% significance level.  The probability that this   
+ conclusion is wrong is less than 5%.
+
+ IF the reported correlation IS LESS THAN the 5% critical value REJECT the
+ hypothesis that the weighted residuals are INDEPENDENT AND NORMALLY
+ DISTRIBUTED at the 5% significance level.
+
+ The analysis can also be done using the 10% significance level.
+ The associated critical value is 0.977
+ --------------------------------------------------------------------------
+

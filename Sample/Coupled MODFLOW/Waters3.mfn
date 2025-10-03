@@ -1,0 +1,28 @@
+# MF2K NAME file
+#
+# Output Files
+GLOBAL        1 "Waters3.glo"
+LIST          2 "Waters3.out"
+DATA(BINARY) 30 "Waters3.hed"
+LMT6         18 "Waters3.lmt"
+#
+# Obs-Sen-Pes Process Input Files
+OBS          50 "Waters3.obs"
+HOB          51 "Waters3.hob"
+RVOB         52 "Waters3.rvob"
+CHOB         55 "Waters3.chob"
+ASP          71 "Waters3.asp"
+#
+# Global Input Files
+DIS          19 "Waters3.dis"
+#
+# Flow Process Input Files
+BAS6          3 "Waters3.ba6"
+LPF           4 "Waters3.lpf"
+OC           15 "Waters3.oc"
+RCH          16 "Waters3.rch"
+RIV           8 "Waters3.riv"
+WEL           9 "Waters3.wel"
+GHB          11 "Waters3.ghb"
+CHD          13 "Waters3.chd"
+PCG          14 "Waters3.pcg"

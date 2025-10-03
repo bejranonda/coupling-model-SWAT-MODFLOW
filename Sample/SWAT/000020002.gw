@@ -1,0 +1,13 @@
+ .gw file Subbasin:2 HRU:2 Luse:FRSD Soil:RCK Wed Sep 13 13:15:33 2006 AVSWAT2000 - SWAT interface MDL
+          0.5000    | SHALLST : Initial depth of water in the shallow aquifer [mm]
+       1000.0000    | DEEPST : Initial depth of water in the deep aquifer [mm]
+         31.0000    | GW_DELAY : Groundwater delay [days]
+          0.0480    | ALPHA_BF : BAseflow alpha factor [days]
+          0.0000    | GWQMN : Threshold depth of water in the shallow aquifer required for return flow to occur [mm]
+          0.0200    | GW_REVAP : Groundwater "revap" coefficient
+          1.0000    | REVAPMN: Threshold depth of water in the shallow aquifer for "revap" to occur [mm]
+          0.0500    | RCHRG_DP : Deep aquifer percolation fraction
+          1.0000    | GWHT : Initial groundwater height [m]
+          0.0030    | GW_SPYLD : Specific yield of the shallow aquifer [m3/m3]
+          0.0000    | GW_NO3 : Concentration of nitrate in groundwater contribution to streamflow from subbasin [mg N/l]
+          0.0000    | GWSOLP : Concentration of soluble phosphorus in groundwater contribution to streamflow from subbasin [mg P/l]

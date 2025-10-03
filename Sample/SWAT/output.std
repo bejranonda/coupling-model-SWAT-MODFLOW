@@ -1,0 +1,221 @@
+1
+    SWAT  Sept '05 VERSION2005                                                                           0/ 0/   0      0: 0: 0
+
+    General Input/Output section (file.cio):                                        
+    Sun Sep 17 22:23:55 2006 AVSWATX2003 MDL                                        
+                                                                                    
+         Number of years in run:    1
+         Area of watershed:      944.833 km2
+1
+    SWAT  Sept '05 VERSION2005                                                      
+
+    General Input/Output section (file.cio):                                        
+    Sun Sep 17 22:23:55 2006 AVSWATX2003 MDL                                        
+                                                                                    
+Annual Summary for Watershed in year    1 of simulation
+
+ UNIT                              PERCO   TILE                       WATER    SED    NO3    NO3    NO3    NO3        N       P       P
+ TIME   PREC   SURQ   LATQ    GWQ   LATE      Q    SW     ET     PET  YIELD  YIELD   SURQ   LATQ   PERC   CROP  ORGANIC SOLUBLE ORGANIC
+        (mm)   (mm)   (mm)   (mm)   (mm)   (mm)   (mm)   (mm)   (mm)   (mm) (t/ha)  -----------------(kg nutrient/ha)------------------
+    4   0.00   0.00   0.00   0.00   0.00   0.00 435.66  48.11 191.12   0.00   0.00   0.00   0.00   0.00   0.00     0.00    0.00    0.00
+    5 310.00  11.24   1.78   0.34   4.47   0.00 620.14 106.49 139.96  10.87   1.83   0.03   0.11   0.91   2.55     1.62    0.00    0.20
+    6   0.00   1.31   0.21   1.67   0.02   0.00 501.89 118.22 259.85   3.19   0.05   0.00   0.01   0.00  16.60     0.02    0.00    0.00
+
+ 1993 310.00  12.55   2.00   2.01   4.49   0.00 501.89 272.82 590.93  14.06   1.89   0.03   0.13   0.91  19.15     1.64    0.00    0.20
+1
+    SWAT  Sept '05 VERSION2005                                                      
+
+    General Input/Output section (file.cio):                                        
+    Sun Sep 17 22:23:55 2006 AVSWATX2003 MDL                                        
+                                                                                    
+    FINAL VALUES
+
+1
+    SWAT  Sept '05 VERSION2005                                                      
+
+    General Input/Output section (file.cio):                                        
+    Sun Sep 17 22:23:55 2006 AVSWATX2003 MDL                                        
+                                                                                    
+                                         Average Crop Values
+                          Crop 1               Crop 2               Crop 3
+                    Yld      Biomass    Yld       Biomass    Yld       Biomass
+                  (kg/ha)    (kg/ha)   (kg/ha)    (kg/ha)   (kg/ha)    (kg/ha)
+
+ RICE  HRU      1 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ RICE  HRU      2 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ AGRR  HRU      3 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ AGRR  HRU      4 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ AGRR  HRU      5 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ BERM  HRU      6 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ BERM  HRU      7 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ FRSD  HRU      8 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ FRSD  HRU      9 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ FRSD  HRU     10 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ FRSD  HRU     11 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ RICE  HRU     12 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ RICE  HRU     13 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ AGRR  HRU     14 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ AGRR  HRU     15 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ AGRR  HRU     16 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+ AGRR  HRU     17 Rot   1     0.0       0.0       0.0       0.0       0.0       0.0
+
+    HRU STATISTICS
+
+                AVE ANNUAL VALUES
+
+ HRU  SUB CPMN SOIL    AREAkm2     CN    AWCmm USLE_LS   IRRmm AUTONkh AUTOPkh   MIXEF  PRECmm  SURQmm   GWQmm    ETmm   SEDth  NO3kgh ORGNkgh  BIOMth   YLDth
+     1   1 RICED2      .405E+03   84.00  700.00    0.23    0.00    0.00    0.00    0.27  411.45   11.44    0.00  347.76    0.12    0.03    0.04    0.00    0.00
+     2   1 RICEC       .473E+02   81.00  630.00    0.23    0.00    0.00    0.00    0.27  411.45   12.10    0.00  336.58    0.70    0.03    2.34    0.00    0.00
+     3   1 AGRRD2      .370E+02   89.00  700.00    0.23    0.00    0.00    0.00    0.27  411.45   49.76    0.00  378.67    3.86    0.15    1.03    0.00    0.00
+     4   1 AGRRB       .221E+02   78.00  700.00    0.23    0.00    0.00    0.00    0.27  411.45    4.62    0.12  395.07    0.25    0.01    0.54    0.00    0.00
+     5   1 AGRRC       .256E+02   85.00  630.00    0.23    0.00    0.00    0.00    0.27  411.45   32.66    0.00  393.20    2.37    0.09    7.50    0.00    0.00
+     6   1 BERMD2      .794E+01   86.59  700.00    0.23    0.00    0.00    0.00    0.27  411.45   56.96    0.00  379.85    3.20    0.17    0.89    0.00    0.00
+     7   1 BERMC       .329E+02   84.14  630.00    0.23    0.00    0.00    0.00    0.27  411.45   58.33    0.00  393.18    3.51    0.16   10.90    0.00    0.00
+     8   2 FRSDD2      .206E+02   83.00  700.00    1.00    0.00    0.00    0.00    0.27  411.45    8.09    0.00  520.45    2.18    0.02    0.43    0.00    0.00
+     9   2 FRSDRCK     .349E+02   45.00  130.00    1.00    0.00    0.00    0.00    0.27  411.45    0.00  118.47  346.12    0.00    3.85    0.00    0.00    0.00
+    10   2 FRSDC       .156E+02   77.00  630.00    1.00    0.00    0.00    0.00    0.27  411.45    3.51    0.04  502.40    0.71    0.01    1.74    0.00    0.00
+    11   2 FRSDA       .405E+01   45.00  455.00    1.00    0.00    0.00    0.00    0.27  411.45    0.00   33.01  490.55    0.00    0.15    0.00    0.00    0.00
+    12   2 RICED2      .185E+03   84.00  700.00    1.00    0.00    0.00    0.00    0.27  411.45   11.44    0.00  347.85    3.77    0.03    0.70    0.00    0.00
+    13   2 RICEC       .282E+02   81.00  630.00    1.00    0.00    0.00    0.00    0.27  411.45   12.08    0.04  336.58    3.94    0.03    8.54    0.00    0.00
+    14   2 AGRRD2      .328E+02   89.00  700.00    1.00    0.00    0.00    0.00    0.27  411.45   49.75    0.00  378.78   20.21    0.15    3.36    0.00    0.00
+    15   2 AGRRRCK     .618E+01   67.00  130.00    1.00    0.00    0.00    0.00    0.27  411.45    0.00  118.89  343.45    0.00    3.80    0.00    0.00    0.00
+    16   2 AGRRC       .318E+02   85.00  630.00    1.00    0.00    0.00    0.00    0.27  411.45   32.62    0.03  393.26   12.44    0.09   25.09    0.00    0.00
+    17   2 AGRRB       .746E+01   78.00  700.00    1.00    0.00    0.00    0.00    0.27  411.45    4.54    1.40  394.71    1.19    0.02    1.78    0.00    0.00
+
+
+
+                AVE MONTHLY BASIN VALUES
+                   SNOW                      WATER               SED
+  MON     RAIN     FALL   SURF Q    LAT Q    YIELD       ET    YIELD      PET
+          (MM)     (MM)     (MM)     (MM)     (MM)     (MM)   (T/HA)     (MM)
+    1     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+    2     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+    3     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+    4     0.00     0.00     0.00     0.00     0.00    48.11     0.00   191.12
+    5   310.00     0.00    11.24     1.78    10.87   106.49     1.83   139.96
+    6     0.00     0.00     1.31     0.21     3.19   118.22     0.05   259.85
+    7     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+    8     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+    9     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+   10     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+   11     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+   12     0.00     0.00     0.00     0.00     0.00     0.00     0.00     0.00
+
+     AVE ANNUAL BASIN STRESS DAYS
+               WATER STRESS DAYS =     0.56
+               TEMPERATURE STRESS DAYS =     0.79
+               NITROGEN STRESS DAYS =     4.61
+               PHOSPHORUS STRESS DAYS =     0.00
+1
+    SWAT  Sept '05 VERSION2005                                                      
+
+    General Input/Output section (file.cio):                                        
+    Sun Sep 17 22:23:55 2006 AVSWATX2003 MDL                                        
+                                                                                    
+         AVE ANNUAL BASIN VALUES
+
+              PRECIP =    411.5 MM
+              SNOW FALL =    0.00 MM
+              SNOW MELT =     0.00 MM
+              SUBLIMATION =     0.00 MM
+              SURFACE RUNOFF Q =    16.66 MM
+              LATERAL SOIL Q =    2.65 MM
+              TILE Q =     0.00 MM
+              GROUNDWATER (SHAL AQ) Q =     2.66 MM
+              REVAP (SHAL AQ => SOIL/PLANTS) =    3.11 MM
+              DEEP AQ RECHARGE =     0.22 MM
+              TOTAL AQ RECHARGE =    4.31 MM
+              TOTAL WATER YLD =    18.66 MM
+              PERCOLATION OUT OF SOIL =    5.96 MM
+              ET =    362.1 MM
+              PET =    784.3MM
+              TRANSMISSION LOSSES =     3.31 MM
+              TOTAL SEDIMENT LOADING =     2.503 T/HA
+              POND BUDGET
+                   EVAPORATION =    0.000 MM
+                   SEEPAGE =    0.000 MM
+                   RAINFALL ON POOL =   0.000 MM
+                   INFLOW
+                        WATER =    0.000 MM
+                        SEDIMENT =    0.000 T/HA
+                   OUTFLOW
+                        WATER =    0.000 MM
+                        SEDIMENT =    0.000 T/HA
+              RESERVOIR BUDGET
+                   EVAPORATION =    0.000 MM
+                   SEEPAGE =    0.000 MM
+                   RAINFALL ON RESERVOIR =    0.000 MM
+                   INFLOW
+                        WATER =    0.000 MM
+                        SEDIMENT =    0.000 T/HA
+                   OUTFLOW
+                        WATER =    0.000 MM
+                        SEDIMENT =    0.000 T/HA
+              YIELD LOSS FROM PONDS
+                   WATER =   0.000 MM
+                   SEDIMENT =   0.000 T/HA
+              YIELD LOSS FROM RESERVOIRS
+                   WATER =   0.000 MM
+                   SEDIMENT =   0.000 T/HA
+1
+    SWAT  Sept '05 VERSION2005                                                      
+
+    General Input/Output section (file.cio):                                        
+    Sun Sep 17 22:23:55 2006 AVSWATX2003 MDL                                        
+                                                                                    
+              AVE ANNUAL BASIN VALUES
+
+
+              NUTRIENTS
+                   ORGANIC N =     2.183 (KG/HA)
+                   ORGANIC P =     0.268 (KG/HA)
+                   NO3 YIELD (SQ) =     0.045 (KG/HA)
+                   NO3 YIELD (SSQ) =    0.168 (KG/HA)
+                   SOL P YIELD =    0.004 (KG/HA)
+                   NO3 LEACHED =     1.206 (KG/HA)
+                   P LEACHED =     0.150 (KG/HA)
+                   N UPTAKE =    25.414 (KG/HA)
+                   P UPTAKE =    4.240 (KG/HA)
+                   NO3 YIELD (GWQ) =     0.538 (KG/HA)
+                   ACTIVE TO SOLUTION P FLOW =    -1.540 (KG/HA)
+                   ACTIVE TO STABLE P FLOW =     0.060 (KG/HA)
+                   N FERTILIZER APPLIED =    0.000 (KG/HA)
+                   P FERTILIZER APPLIED =    0.000 (KG/HA)
+                   N FIXATION =    0.000 (KG/HA)
+                   DENITRIFICATION =    0.000 (KG/HA)
+                   HUMUS MIN ON ACTIVE ORG N =    10.249 (KG/HA)
+                   ACTIVE TO STABLE ORG N =    -0.219 (KG/HA)
+                   HUMUS MIN ON ACTIVE ORG P =    1.758 (KG/HA)
+                   MIN FROM FRESH ORG N =    0.000 (KG/HA)
+                   MIN FROM FRESH ORG P =    0.000 (KG/HA)
+                   NO3 IN RAINFALL =     4.115 (KG/HA)
+                   INITIAL NO3 IN SOIL =      12.937 (KG/HA)
+                   FINAL NO3 IN SOIL =       3.542 (KG/HA)
+                   INITIAL ORG N IN SOIL =   16769.084 (KG/HA)
+                   FINAL ORG N IN SOIL =   16759.646 (KG/HA)
+                   INITIAL MIN P IN SOIL =    2001.840 (KG/HA)
+                   FINAL MIN P IN SOIL =    1999.836 (KG/HA)
+                   INITIAL ORG P IN SOIL =    2054.213 (KG/HA)
+                   FINAL ORG P IN SOIL =    2052.678 (KG/HA)
+                   NO3 IN FERT =     0.000 (KG/HA)
+                   AMMONIA IN FERT =     0.000 (KG/HA)
+                   ORG N IN FERT =     0.000 (KG/HA)
+                   MINERAL P IN FERT =     0.000 (KG/HA)
+                   ORG P IN FERT =     0.000 (KG/HA)
+                   N REMOVED IN YIELD =     0.000 (KG/HA)
+                   P REMOVED IN YIELD =     0.000 (KG/HA)
+                   AMMONIA VOLATILIZATION =     0.000 (KG/HA)
+                   AMMONIA NITRIFICATION =    0.000 (KG/HA)
+                   NO3 EVAP-LAYER 2 TO 1 =    0.813
+
+                   DIE-GRO P Q =       0.0 (No/HA)
+                   DIE-GRO LP Q =       0.0 (No/HA)
+                   DIE-GRO P SED =      0.0 (No/HA)
+                   DIE-GRO LP SED =      0.0 (No/HA)
+                   BACT P RUNOFF =      0.0 (No/HA)
+                   BACT LP RUNOFF =      0.0 (No/HA)
+                   BACT P SEDIMENT =      0.0 (No/HA)
+                   BACT LP SEDIMENT =      0.0 (No/HA)
+                   BACT P INCORP =      0.0 (No/HA)
+                   BACT LP INCORP =      0.0 (No/HA)
+

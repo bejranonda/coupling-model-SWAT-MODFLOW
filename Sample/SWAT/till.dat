@@ -1,0 +1,107 @@
+   1    FALLPLOW           0.950         150.000   generic fall plowing operation      
+   2    SPRGPLOW           0.500         125.000   generic spring plowing operation    
+   3    CONSTILL           0.250         100.000   generic conservation tillage        
+   4    ZEROTILL           0.050          25.000   generic no-till mixing              
+   5    DUCKFTC            0.550         100.000   DUCKFOOT CULTIVATOR                 
+   6    FLDCGE15           0.300         100.000   FIELD CULTIVATOR GE15FT             
+   7    FLDCLT15           0.300         100.000   FIELD CULTIVATOR LT15FT             
+   8    FUROWOUT           0.750          25.000   FURROW-OUT CULTIVATOR               
+   9    MARKER             0.450         100.000   MARKER (CULTIVATOR)                 
+  10    ROLLGE15           0.500          25.000   ROLLING CULTIVATOR GE15FT           
+  11    ROLLLT15           0.500          25.000   ROLLING CULTIVATOR LT15FT           
+  12    ROWCGE15           0.250          25.000   ROW CULTIVATOR GE15FT               
+  13    ROWCLT15           0.250          25.000   ROW CULTIVATOR LT15FT               
+  14    DISCOVAT           0.500          25.000   DISCOVATOR                          
+  15    LEVELER            0.500          25.000   LEVELER                             
+  16    HRW10BAR           0.200          25.000   HARROW 10 BAR TINE 36 FT            
+  17    CMULGE18           0.250          25.000   CULTI-MULCH ROLLER GE18FT           
+  18    CMULLT18           0.250          25.000   CULTI-MULCH ROLLER LT18FT           
+  19    CULPKPUL           0.350          40.000   CULTI-PACKER PULVERIZER             
+  20    LANDLEVL           0.500          75.000   LAND PLANE-LEVELER                  
+  21    LANDALL            0.300         150.000   LANDALL, DO-ALL                     
+  22    LASRPLAN           0.300         150.000   LASER PLANER                        
+  23    LEVPLDIS           0.750          25.000   LEVEE-PLOW-DISC                     
+  24    FLOAT              0.100          60.000   FLOAT                               
+  25    FLDCDSCR           0.100          60.000   FIELD COND (SCRATCHER)              
+  26    LISTRMID           0.150          40.000   LISTER (MIDDLE-BUSTER)              
+  27    ROLLGROV           0.250          60.000   ROLLER GROOVER                      
+  28    ROLPKRAT           0.050          40.000   ROLLER PACKER ATTACHMENT            
+  29    ROLPKRFT           0.350          40.000   ROLLER PACKER FLAT ROLLER           
+  30    SANDFIGT           0.700         100.000   SAND-FIGHTER                        
+  31    SEEDROLL           0.700         100.000   SEEDBED ROLLER                      
+  32    CRUSTBST           0.100          60.000   CRUST BUSTER                        
+  33    ROLLHRRW           0.400          60.000   ROLLER HARROW 15 FT                 
+  34    TRIPLE K           0.400         100.000   TRIPLE K                            
+  35    CULT1ROW           0.250          25.000   CULTIVATOR 1 ROW                    
+  36    FINHGE15           0.550         100.000   FINISHING HARROW GE15FT             
+  37    FINHLT15           0.550         100.000   FINISHING HARROW LT15FT             
+  38    FLEXGE20           0.200          25.000   FLEX-TINE HARROW CL GE20FT          
+  39    FLEXLT20           0.200          25.000   FLEX-TINE HARROW CL LT20FT          
+  40    SPIKETTH           0.400          75.000   POWERED SPIKE TOOTH HARROW          
+  41    SPIKGT25           0.250          25.000   SPIKE TOOTH HARROW GT25FT           
+  42    SPIKLE25           0.250          25.000   SPIKE TOOTH HARROW LE25FT           
+  43    SPTHGE15           0.350          25.000   SPRINGTOOTH HARROW GE15FT           
+  44    SPTHLT15           0.350          25.000   SPRINGTOOTH HARROW LT15FT           
+  45    SOILFINS           0.550          75.000   SOIL FINISHER                       
+  46    ROTHOE             0.100           5.000   ROTARY HOE                          
+  47    ROTERRA            0.800           5.000   ROTERRA                             
+  48    ROTOTILL           0.800           5.000   ROTO-TILLER                         
+  49    ROTBEDDR           0.800         100.000   ROTOVATOR-BEDDER                    
+  50    ROWBUCK            0.700         100.000   ROWBUCK                             
+  51    RIPPER10           0.250         350.000   RIPPER 10 FT                        
+  52    MIDBST1R           0.700         100.000   MIDDLE BUSTER 1 ROW                 
+  53    RODWEEDR           0.300          25.000   ROD WEEDER                          
+  54    RUBWHWPL           0.350           5.000   RUBBER-WHEEL WEED PULLER            
+  55    MULTIWDR           0.300          25.000   MULTI-WEEDER                        
+  56    MLDBGE10           0.950         150.000   MOLDBOARD PLOW REG GE10B            
+  57    CHPLGT21           0.300         150.000   CHISEL PLOW GT21FT                  
+  58    CHPLGT15           0.300         150.000   CHISEL PLOW GT15FT                  
+  59    CHPLLE15           0.300         150.000   CHISEL PLOW LE15FT                  
+  60    CCHPLOW            0.500         150.000   COULTER-CHISEL PLOW                 
+  61    DKPLGE23           0.850         100.000   DISK PLOW GE23FT                    
+  62    DKPLLT23           0.850         100.000   DISK PLOW LT23FT                    
+  63    MLBDR4-6           0.950         150.000   MOLDBOARD PLOW REG 4-6B             
+  64    MLBDRGE7           0.950         150.000   MOLDBOARD PLOW REG GE7B             
+  65    MLBDRLE3           0.950         150.000   MOLDBOARD PLOW REG LE3B             
+  66    MLBD24-6           0.950         150.000   MOLDBOARD PLOW 2-WAY 4-6B           
+  67    MLDB2GE7           0.950         150.000   MOLDBOARD PLOW 2-WAY GE7B           
+  68    MLDB2LE3           0.950         150.000   MOLDBOARD PLOW 2-WAY LE3B           
+  69    SMCHGT15           0.150          75.000   STUBBLE-MULCH PLOW GT15FT           
+  70    SMCHLE15           0.150          75.000   STUBBLE-MULCH PLOW LE15FT           
+  71    SUBCHPLW           0.450         350.000   SUBSOIL CHISEL PLOW                 
+  72    ROWCOND1           0.500          25.000   ROW CONDITIONER 1 ROW               
+  73    HIPPER1R           0.500         100.000   HIPPER 1 ROW                        
+  74    RICEROLL           0.100          50.000   RICE ROLLER                         
+  75    PARAPLOW           0.150         350.000   PARAPLOW                            
+  76    SBEDHIPR           0.700         350.000   SUBSOILER-BEDDER HIP-RIP            
+  77    RIPRSUBS           0.250         350.000   DEEP RIPPER- SUBSOILER              
+  78    VRIPPER            0.250         350.000   V-RIPPER                            
+  79    BEDROL4R           0.250          50.000   BED ROLLER 4 ROW                    
+  80    BEDDER D           0.550         150.000   BEDDER (DISK)                       
+  81    BEDDHIPR           0.650         150.000   BEDDER DISK-HIPPER                  
+  82    BEDDKROW           0.850         100.000   BEDDER DISK-ROW                     
+  83    BEDDER S           0.550         150.000   BEDDER SHAPER                       
+  84    DSKBRMKR           0.550         150.000   DISK BORDER MAKER                   
+  85    DKCHMTIL           0.550         150.000   DISK CHISEL (MULCH TILLER)          
+  86    OFFDGE19           0.700         100.000   OFFSET DIS/HEAVDUTY GE19FT          
+  87    OFFHLE13           0.700         100.000   OFFSET DIS/HEAVDUTY LE13FT          
+  88    OFFH1418           0.600         100.000   OFFSET DIS/HEAVDUTY14-18FT          
+  89    OFFLGE19           0.550         100.000   OFFSET DIS/LGHTDUTY GE19FT          
+  90    OFFLLE13           0.550         100.000   OFFSET DIS/LGHTDUTY LE13FT          
+  91    OFFL1418           0.550         100.000   OFFSET DIS/LGHTDUTY14-18FT          
+  92    ONE-WAYT           0.600         100.000   ONE-WAY (DISK TILLER)               
+  93    TANPGE19           0.700          75.000   TANDEM DISK PLW GE19FT              
+  94    TANPLE13           0.400          75.000   TANDEM DISK, PLW LE13FT             
+  95    TANP1418           0.550          75.000   TANDEM DISK PLW 14-18FT             
+  96    TANRGE19           0.750         100.000   TANDEM DISK REG GE19FT              
+  97    TANRLE13           0.600          75.000   TANDEM DISK REG LE13FT              
+  98    TANR1418           0.400          75.000   TANDEM DISK REG 14-18FT             
+  99    SINGLDIS           0.450         100.000   SINGLE DISK                         
+ 100    PWRMULCH           0.700          50.000   POWER MULCHER                       
+ 101    BLADE 10           0.250          75.000   BLADE 10 FT                         
+ 102    FURWDIKE           0.700         100.000   FURROW DIKER                        
+ 103    BEETCULT           0.250          25.000   BEET CULTIVATOR  8 ROW              
+ 104    DSKPLW36           0.700         100.000   DISK PLOW GE23FT                    
+ 105    CLTIWD36           0.300         100.000   CULTIWEEDER 36 FT                   
+ 106    PACKER40           0.350          40.000   PACKER   40 FT                      
+ 107    RODWDR36           0.300         100.000   RODWEEDER/10 BAR HAR 36FT           
