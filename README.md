@@ -224,7 +224,15 @@ The research was supervised by:
 
 ## Related Research
 
-This Master's research formed the foundation for subsequent doctoral work on climate-water resources systems:
+This Master's research and coupling framework formed the foundation for subsequent work, including:
+
+### Journal Publications
+
+**Bejranonda, W.**, Koch, M., & Koontanakulvong, S. (2013). "Surface water and groundwater dynamic interaction models as guiding tools for optimal conjunctive water use policies in the central plain of Thailand." *Environmental Earth Sciences*, 70, 2079–2086. https://doi.org/10.1007/s12665-011-1007-y
+
+This peer-reviewed journal article extended the coupling framework to address conjunctive water use policies under climate change scenarios in Thailand's Central Plain.
+
+### Doctoral Research
 
 - **Doctoral Research (2009-2014)**: "Climate Impacts on Water Resources Systems" at University of Kassel, Germany
 - **Extended methodology**: Multi-model ensemble approaches for climate change assessment
