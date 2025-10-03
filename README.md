@@ -18,10 +18,10 @@ A semi-coupled hydrological modeling framework integrating SWAT (Soil and Water 
 
 This repository contains the implementation of a semi-coupling framework developed during 2005-2007 as part of a Master's thesis research project at Chulalongkorn University, Thailand. The program facilitates one-way coupling between surface water (SWAT) and groundwater (MODFLOW) models to simulate conjunctive water use patterns and analyze water balance dynamics in complex aquifer systems.
 
-**Study Area:** Upper Great Chao Phraya Plain, Thailand
-**Research Period:** 2005-2007
-**Institution:** Chulalongkorn University, Water Resources System Research Unit
-**Funding:** Department of Groundwater Resources of Thailand
+- **Study Area:** Upper Great Chao Phraya Plain, Thailand
+- **Research Period:** 2005-2007
+- **Institution:** Chulalongkorn University, Water Resources System Research Unit
+- **Funding:** Department of Groundwater Resources of Thailand
 
 <img width="941" height="599" alt="image" src="https://github.com/user-attachments/assets/a21a0047-af73-4500-9eac-f7cbc60f4b09" />
 
