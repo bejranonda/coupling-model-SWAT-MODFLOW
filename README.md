@@ -6,6 +6,11 @@
 
 A semi-coupled hydrological modeling framework integrating SWAT (Soil and Water Assessment Tool) and MODFLOW for analyzing surface-groundwater interactions in alluvial aquifer systems.
 
+<img width="584" height="614" alt="image" src="https://github.com/user-attachments/assets/242ff7a0-4817-4a69-877b-522ea59153da" />
+
+*User-Interface to setup the coupling simulation between SWAT and MODFLOW*
+
+
 ## Overview
 
 This repository contains the implementation of a semi-coupling framework developed during 2005-2007 as part of a Master's thesis research project at Chulalongkorn University, Thailand. The program facilitates one-way coupling between surface water (SWAT) and groundwater (MODFLOW) models to simulate conjunctive water use patterns and analyze water balance dynamics in complex aquifer systems.
@@ -14,6 +19,10 @@ This repository contains the implementation of a semi-coupling framework develop
 **Research Period:** 2005-2007
 **Institution:** Chulalongkorn University, Water Resources System Research Unit
 **Funding:** Department of Groundwater Resources of Thailand
+
+<img width="941" height="599" alt="image" src="https://github.com/user-attachments/assets/a21a0047-af73-4500-9eac-f7cbc60f4b09" />
+
+*Study area showing river networks and alluvial aquifers*
 
 ## Scientific Background
 
@@ -37,6 +46,11 @@ Traditional hydrological modeling approaches treat surface water and groundwater
 
 This research addressed these challenges through a **semi-coupling framework** that enables practical integration of watershed-scale surface water models with regional groundwater flow models.
 
+<img width="996" height="492" alt="image" src="https://github.com/user-attachments/assets/53e7a452-cb85-44ce-b778-d0847954e371" />
+
+*Scheme of coupling model*
+
+
 ## Technical Methodology
 
 ### Coupling Approach
@@ -50,6 +64,11 @@ SWAT (Surface Water Model)
          ↓
 MODFLOW (Groundwater Model)
 ```
+
+<img width="915" height="558" alt="image" src="https://github.com/user-attachments/assets/4a758fca-25e8-4ec2-bbce-8673d00c700c" />
+
+*Linkage between surface and groundwater model.*
+
 
 **Key Steps:**
 
@@ -76,6 +95,10 @@ MODFLOW (Groundwater Model)
    - Well abstractions (WELI/WELO)
    - River-aquifer exchange (RIVI/RIVO)
    - Recharge (RECI/RECO)
+
+<img width="727" height="717" alt="image" src="https://github.com/user-attachments/assets/beb81752-eb49-4fe1-a888-dc3fc9319c64" />
+
+*Surface water and groundwater hydrological components with water balance analysis result*
 
 ### Model Configuration
 
@@ -104,6 +127,10 @@ MODFLOW (Groundwater Model)
 - ✅ **Quality assurance**: Input validation and coupling verification
 - ✅ **Report generation**: Structured output for analysis
 
+<img width="791" height="569" alt="image" src="https://github.com/user-attachments/assets/e5943aa6-5fef-4049-86ae-8cf68b744cb1" />
+
+*Obvious different groundwater level at dry season of 2003 due to coupled models*
+
 ## System Requirements
 
 ### Legacy Software Notice
@@ -131,9 +158,8 @@ Running this code on modern systems may require:
 
 ### For Historical Reference
 
-1. **Review the methodology**: See `CLAUDE.md` for detailed code architecture
-2. **Examine source code**: `Main.frm` contains complete implementation
-3. **Study sample data**: `Sample/` directory includes example model files
+1. **Examine source code**: `Main.frm` contains complete implementation
+2. **Study sample data**: `Sample/` directory includes example model files
 
 ### For Replication (Advanced)
 
