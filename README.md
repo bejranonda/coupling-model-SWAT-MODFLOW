@@ -1,8 +1,11 @@
 # Semi-Coupling of SWAT and MODFLOW
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Latest Release](https://img.shields.io/github/v/release/bwerapol/Coupling-Model?label=version)](https://github.com/bwerapol/Coupling-Model/releases)
 [![Legacy Code](https://img.shields.io/badge/status-legacy%20research%20code-orange.svg)](https://github.com/bwerapol)
 [![Research Period](https://img.shields.io/badge/research%20period-2005--2007-blue.svg)](https://digiverse.chula.ac.th/Info/item/dc:44931)
+
+> **Current Version:** 1.0.1 (Documentation Release - January 2025)
 
 A semi-coupled hydrological modeling framework integrating SWAT (Soil and Water Assessment Tool) and MODFLOW for analyzing surface-groundwater interactions in alluvial aquifer systems.
 
@@ -275,7 +278,30 @@ This peer-reviewed journal article extended the coupling framework to address co
 
 - **2004-2009**: Water resources modeling and computational hydrology
 - **2009-2014**: Doctoral research on climate-water resources systems
-- **2015-present**: Industry innovation in IoT, smart energy, and building automation
+- **2015-2021**: Industry innovation in IoT, smart energy, and building automation
+- **2021-present**: Creative technology and sensor-based art installations
+
+This repository represents early-career research bridging water resources engineering and computational modeling—foundational work that evolved into a broader interdisciplinary practice spanning environmental systems, IoT innovation, and creative technology.
+
+## Version History
+
+### Version 1.0.1 (January 2025) - Documentation Release
+- ✨ Added comprehensive README.md with full research context
+- 📚 Added complete publication citations and academic references
+- 📚 Included related research (Environmental Earth Sciences 2013)
+- 🖼️ Added screenshots and study area visualizations
+- 📝 Added proper MIT license
+- 🔗 Added links to thesis repository and publications
+- 📦 Repository prepared for public archival and citation
+
+### Version 1.0.0b (2007) - Original Research Code
+- 🎓 Original Visual Basic 6 implementation from Master's thesis research
+- ⚙️ Semi-coupling framework for SWAT-MODFLOW integration
+- 🔄 Data transfer module for recharge aggregation and mapping
+- 📊 Water balance extraction and reporting
+- 🗺️ Application to Upper Central Plain of Thailand (22 subbasins)
+- 📁 Sample datasets for both SWAT and MODFLOW models
+- ✅ Successfully used in IAH 2006 and IAH 2007 conference publications
 
 ## License
 
